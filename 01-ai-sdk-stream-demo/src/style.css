@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; color: #202124; background: #fff; }
+main { max-width: 720px; margin: 32px auto; padding: 0 16px 32px; }
+h1 { font-size: 24px; }
+.messages { min-height: 200px; }
+article { padding: 12px 0; border-bottom: 1px solid #ddd; }
+p { white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.6; }
+form { margin-top: 24px; }
+label { display: block; margin-bottom: 8px; }
+.composer { display: flex; gap: 8px; }
+input { flex: 1; min-width: 0; padding: 10px; font: inherit; }
+button { flex-shrink: 0; padding: 8px 12px; font: inherit; cursor: pointer; }
+button:disabled { cursor: default; }
